@@ -1,0 +1,42 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.jumbotron{
+	text-align: center;
+	background-image: url('../images/Hero-Image.jpg');
+	color:white;
+}
+.nav {
+	font-family: 'Arvo', serif;
+	font-size: 13px;
+}
+.jumbotron h1{
+	font-family: 'Arvo', serif;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+.jumbotron p
+{
+    margin-bottom: 30px;  
+    font-weight: 100;
+    padding: 0 50px;    
+}
+.btn-lg{
+	font-size: 36px;
+}
+.homepage{
+	text-align: center;
+}
+.homepage h2{
+	font-size: 30px;
+}
+.homepage h2,.homepage h3{
+     color:#e74c3c;
+     text-transform: uppercase;
+     font-family: 'Arvo',serif;
+}
+.homepage a{
+	color:#e74c3c;
+}
